@@ -1,0 +1,32 @@
+ion-content {
+    --background: url('/assets/images/welcome1.jpg') no-repeat 100% 100%;
+  
+}
+div{
+    opacity: 0.6;
+}
+ion-fab-button{
+    height:100px;
+    width:300px;
+}
+.ion-padding{
+    align-items: center;
+    height: 500px;
+    
+    position: absolute;
+    top: 25%;
+    bottom: 30%;
+    left:25%;
+    
+    
+}
+.padding{
+    align-items: center;
+    height: 50px;
+    
+    position: absolute;
+    top: 52%;
+    bottom: 30%;
+    left:19%;
+    
+}

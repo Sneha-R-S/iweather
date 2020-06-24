@@ -1,27 +1,51 @@
-#container {
-  text-align: center;
+ion-content {
+    --background: url('/assets/images/new.jpg') no-repeat 100% 100%;
+}
+div{
+    opacity: 0.6;
+}
+.username{
+    align-items: center;
+    height: 50px;
+    
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left:19%;
+    
+}
+.password{
+    align-items: center;
+    height: 50px;
+    
+    position: absolute;
+    top: 40%;
+    bottom: 30%;
+    left:19%;
+    
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-button{
+    height:50px;
+    width:230px;
+    align-items: center;
+    
+    position: absolute;
+    top: 50%;
+    bottom: 30%;
+    left:18%;
+        
+   
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.title
+{
+    align-items: center;
+    height: 50px;
+    width:300px;
+    position: absolute;
+    top: 20%;
+    bottom: 30%;
+    left:8%;
+    
 }
